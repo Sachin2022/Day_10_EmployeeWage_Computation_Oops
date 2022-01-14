@@ -18,6 +18,7 @@ public class EmployeeWage {
 		int totalEmpHrs = 0;
 		int totalWorkingDays = 0;
 		int totalEmpWage = 0;
+
 		while (totalEmpHrs <= Max_Hrs_In_Month && totalWorkingDays < Num_Of_Working_Days) {
 			totalWorkingDays++;
 			int empCheck = (int) Math.floor(Math.random() * 10) % 3;
